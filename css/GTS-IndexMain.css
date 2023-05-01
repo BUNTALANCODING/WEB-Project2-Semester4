@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.gts-container-content {
+
+    background-color: rgb(224, 225, 233);
+    padding-bottom: 5rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+/* Navbar GTS */
+.gts-navbar {
+    height: auto;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+
+.gts-btn-primary {
+    width: 6rem;
+    height: auto;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background: #00473e;
+    color: white;
+}
+
+.gts-btn-primary:hover {
+    width: 6rem;
+    height: auto;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border: 2px solid #00473e;
+    color: #00473e;
+}
+
+.gts-btn-secondary {
+    width: 6rem;
+    height: auto;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border: 2px solid #475d5b;
+    color: #475d5b;
+}
+
+.gts-btn-secondary:hover {
+    width: 6rem;
+    height: auto;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background: #475d5b;
+    color: white;
+}
+
+
+/* Search GTS */
+.gts-search {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.gts-form-search {
+    border-radius: 1rem 1rem 1rem 1rem;
+    border: 2px solid #475d5b;
+}
+
+
+
+/* Carousel GTS */
+.gts-carousel {
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding-top: 2rem;
+    background-color: #00473e;
+    text-align: center;
+    height: 20rem;
+
+}
+
+.gts-img-banner {
+    width: 40rem;
+    height: 15rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+
+}
+
+span.gts-btn-carousel-next {
+    background-image: url(../img/next.png);
+    height: 4rem;
+    width: 2.5rem;
+
+}
+
+span.gts-btn-carousel-prev {
+    background-image: url(../img/prev.png);
+    height: 4rem;
+    width: 2.5rem;
+}
+
+
+/* Kategori GTS */
+
+.gts-kategori {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.gts-img-kategori {
+    width: 5rem;
+}
+
+.gts-kategori-item {
+    height: 130px;
+    border: 3px solid #475d5b;
+    background-color: white;
+    width: 135px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.gts-kategori-item:hover {
+    height: 130px;
+    border: 7px solid #475d5b;
+    background-color: white;
+    width: 135px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.gts-icon-txt {
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Konten GTS */
+.gts-content {
+    background-color: white;
+    text-align: center;
+    margin-top: 2rem;
+    height: auto;
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.gts-img-konten {
+    width: 7rem;
+}
+
+.gts-konten-item {
+    color: black;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 11.5rem;
+    text-align: left;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+    height: 19rem;
+    border: 3px solid #475d5b;
+}
+
+.gts-konten-item .gts-container-img {
+    background-color: #00473e;
+    margin: -15px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.gts-konten-item:hover {
+    height: 19rem;
+    border: 5px solid #475d5b;
+    background-color: white;
+    width: 11.5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.gts-konten-txt {
+    padding-top: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.gts-price-pdct{
+    font-size: 19px;
+    color: #fa5246;
+    font-weight: bolder;
+
+}
+
+.gts-disc-grup {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.gts-diskon-txt{
+    font-size: 14px;
+    color: white;
+}
+
+.gts-disc-price-txt{
+    font-size: 13px;
+    text-align: left;
+    color: #a8a8a8;
+    padding-top: 5.2px;
+}
+
+.gts-diskon{
+    width: 3rem;
+    height: 1.5rem;
+    background-color: rgb(235, 83, 83);
+    padding-top: 4.8px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.gts-send-pdct{
+    font-size: 10px;
+    color: #2c96a1;
+}
+
+.gts-kat-send{
+    padding-top: 5px;
+    background-color: rgb(212,237,218);
+    height: 1.5rem;
+    width: 6rem;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.gts-sell{
+    margin-top: 2rem;
+}
+
+.gts-sell-pdct{
+    font-size: 10px;
+}
+
+/* Footer GTS */
+.footer-clean {
+    background: #00473e;
+    padding: 50px 0;
+    color: white;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+
+.footer-clean h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-clean ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-clean ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+    opacity: 1;
+}
+
+.footer-clean .item.social {
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .footer-clean .item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-clean .item.social {
+        text-align: center;
+    }
+}
+
+.footer-clean .item.social>a {
+    font-size: 24px;
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-top: 22px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-clean .item.social>a:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 991px) {
+    .footer-clean .item.social>a {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-clean .item.social>a {
+        margin-top: 10px;
+    }
+}
+
+.footer-clean .copyright {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: 0.6;
+}

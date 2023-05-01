@@ -1,0 +1,220 @@
+@media only screen and (max-width: 414px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .gts-container-content {
+
+        background-color: rgb(224, 225, 233);
+        padding-bottom: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    /* GTS navbar */
+    .gts-navbar {
+        height: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    img.gts-brand-logo {
+        width: 110px;
+        height: 30px;
+    }
+
+    .gts-btngrup-navbar {
+        height: 4rem;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        width: 22.5rem;
+    }
+
+    .container-fluid {
+        height: auto;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .gts-btn-primary {
+        width: 7rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #00473e;
+        color: white;
+    }
+
+    .gts-btn-primary:hover {
+        width: 7rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #00473e;
+        color: #00473e;
+    }
+
+    .gts-btn-secondary {
+        width: 7rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #475d5b;
+        color: #475d5b;
+    }
+
+    .gts-btn-secondary:hover {
+        width: 7rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #475d5b;
+        color: white;
+    }
+
+    /* Search GTS */
+    .gts-search {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .gts-form-search {
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #475d5b;
+    }
+
+
+
+    /* Carousel GTS */
+    .gts-carousel {
+        border-radius: 1rem 1rem 0rem 0rem;
+        padding-top: 2rem;
+        background-color: #00473e;
+        text-align: center;
+        height: 15rem;
+
+    }
+
+    .gts-img-banner {
+        width: 40rem;
+        height: 15rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+
+    }
+
+    span.gts-btn-carousel-next {
+        background-image: url(../img/next.png);
+        height: 4rem;
+        width: 2.5rem;
+
+    }
+
+    span.gts-btn-carousel-prev {
+        background-image: url(../img/prev.png);
+        height: 4rem;
+        width: 2.5rem;
+    }
+
+
+
+    /* Konten GTS */
+    .gts-content {
+        background-color: white;
+        text-align: center;
+        margin-top: -13rem;
+        height: auto;
+        width: auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+        border-radius: 10px 10px 10px 10px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .gts-container-pembayaran {
+        text-align: left;
+        width: auto;
+    }
+
+    .gts-pembayaran-ttle {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-weight: bolder;
+
+    }
+
+    .gts-pembayaran-ttles {
+        margin-bottom: 1rem;
+        font-weight: bolder;
+
+    }
+
+    .gts-pembayaran-txt {
+        font-size: 14px;
+        width: 9rem;
+    }
+
+    .gts-pembayaran-txts {
+        font-size: 13px;
+    }
+
+    .gts-pembayaran-detail {
+        border: 2px solid #00473e;
+        margin-top: 2rem;
+        border-radius: 10px 10px 10px 10px;
+        text-align: left;
+        padding-top: 1rem;
+        width: auto;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .gts-grup-dtl {
+        margin-top: 1rem;
+    }
+
+    .gts-btn-bayars {
+        width: 16.3rem;
+        margin-top: 2rem;
+        background-color: #FAAE2B;
+        border: none;
+        border-radius: 10px 10px 10px 10px;
+        height: 2rem;
+        color: white;
+    }
+
+    .gts-btn-bayars:hover {
+        width: 16.3rem;
+        margin-top: 2rem;
+        background-color: #FAAE2B;
+        border: none;
+        border-radius: 10px 10px 10px 10px;
+        height: 2rem;
+        color: white;
+    }
+
+    .gts-pembayaran-grup {
+        justify-content: space-between;
+    }
+
+    .gts-pembayaran-grup {
+        width: 15rem;
+
+    }
+    .gts-img-bank{
+        width: 5rem;
+    }
+
+
+    /* Footer GTS */
+    .footer-clean {
+        background: #00473e;
+        padding: 12px 0;
+        color: white;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

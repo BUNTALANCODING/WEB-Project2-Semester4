@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/GTS-Logo.ico" type="image/x-icon">
+    <title>GrowtopiaShop.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/GTS-Keranjang.css">
+    <link rel="stylesheet" href="css/GTS-Keranjang-MQ.css">
+
+    <script src="js/GTS-HapusNotif.js"></script>
+</head>
+<body>
+    <div class="row gts-navbar">
+        <nav class="navbar sticky-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/GTS-Logo.png" alt="Logo" width="175" height="50"
+                        class="gts-brand-logo d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="gts-grup-cartnav justify-content-between row collapse navbar-collapse"id="navbarNav">
+                <div class="col-5">
+                    <div class="gts-btngrup-navbar" >
+                        <form class="d-flex" role="search">
+                            <img class="me-1" src="img/avatar.png" width="50rem" alt="">
+                            <h5 class="gts-username">Akbar</h5>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="me gts-container-content">
+        <div class="gts-carousel">
+
+        </div>
+        <div class="gts-content">
+            <div class="gts-container-keranjang justify-content-between row">
+                <div class="col-1">
+                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value=""
+                                    aria-label="...">
+                </div>
+                <div class=" col-3">
+                    <img class="gts-img-cart" width="160rem" src="img/dl.png" alt="">
+                </div>
+                <div class="gts-grup-cart col-8">
+                    <h5 class="gts-txt-ttle">Diamond Lock</h5>
+                    <h5 class="gts-txt-price">Rp25.000</h5>
+                    <div class="gts-kat-send">
+                        <h5 class="gts-send-pdct">Stock : 999</h5>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <input type="number" min="2" id="email" value="2" class="gts-form-login1" required autocomplete="off" />
+                        </div>
+                        <div class="col-3 gts-trash">
+                            <img width="40rem" src="img/trash.png" alt="" onclick="notifhapus()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gts-container-keranjang justify-content-between row">
+                <div class="col-1">
+                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value=""
+                                    aria-label="...">
+                </div>
+                <div class="col-3 ">
+                    <img class="gts-img-cart" width="160rem" src="img/Blue Gems Lock.png" alt="">
+                </div>
+                <div class="gts-grup-cart col-8">
+                    <h5 class="gts-txt-ttle">Diamond Lock</h5>
+                    <h5 class="gts-txt-price">Rp25.000</h5>
+                    <div class="gts-kat-send">
+                        <h5 class="gts-send-pdct">Stock : 999</h5>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <input type="number" min="2" id="email" value="2" class="gts-form-login1" required autocomplete="off" />
+                        </div>
+                        <div class="col-3 gts-trash">
+                            <img width="40rem" src="img/trash.png" alt="" onclick="notifhapus()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gts-container-keranjang justify-content-between row">
+                <div class="col-1">
+                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value=""
+                                    aria-label="...">
+                </div>
+                <div class="col-3">
+                    <img class="gts-img-cart"  width="160rem" src="img/Emerald Lock.png" alt="">
+                </div>
+                <div class="gts-grup-cart col-8">
+                    <h5 class="gts-txt-ttle">Diamond Lock</h5>
+                    <h5 class="gts-txt-price">Rp25.000</h5>
+                    <div class="gts-kat-send">
+                        <h5 class="gts-send-pdct">Stock : 999</h5>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-5">
+                            <input type="number" min="2" id="email" value="2" class="gts-form-login1" required autocomplete="off" />
+                        </div>
+                        <div class="col-3 gts-trash">
+                            <img width="40rem" src="img/trash.png" alt="" onclick="notifhapus()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gts-grup-co row justify-content-between">
+                <div class="gts-container-co col-4">
+                    <h5 class="gts-ttl-txt">Total Pembelian (1) Produk</h5>
+                    <h5 class="gts-txt-prices">Rp25.000</h5>
+                </div>
+                <div class="col-4">
+                    <a href="gts-pembayaran.html"><button class="gts-btn-secondary" type="button">Bayar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 item social">
+                        <a href="#"><i class="icon ion-social-facebook"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter"></i></a>
+                        <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                        <a href="#"><i class="icon ion-social-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

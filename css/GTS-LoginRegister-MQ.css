@@ -1,0 +1,89 @@
+@media only screen and (max-width: 414px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    .gts-login-container{
+        text-align: center;
+        padding-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+        margin-bottom: 3rem;
+        
+    }
+    .gts-logo{
+        padding-bottom: 2rem;
+    }
+    
+    img.gts-logo-login{
+        width: 300px;
+        
+    }
+    
+    .gts-bglogin{
+        background-color: #00473e;
+        height: 12rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+    
+    
+    .gts-form-container{
+        border: 2px solid #00473e;
+        margin-top: -10rem;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+        border-radius: 1rem 1rem 1rem 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+    
+    .gts-form-login {
+        width: 223px;
+        border: none;
+        outline: none;
+    }
+    .gts-form-login1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #00473e;
+        height: 40px;
+        width: 17.5rem;
+    }
+    .gts-form-login1:focus {
+        outline: none;
+    }
+    input.gts-form-login:focus {
+        outline: none;
+    }
+    
+    .gts-showpw{
+        width: 2rem;
+    }
+
+    .gts-pw-form{
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #00473e;
+        height: 40px;
+        padding-right: 8rem;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 40px;
+    }
+
+    .footer-clean {
+        background: #00473e;
+        padding: 50px 0;
+        color: white;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+

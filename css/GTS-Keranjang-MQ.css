@@ -1,0 +1,206 @@
+@media only screen and (max-width: 414px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .gts-container-content {
+
+        background-color: rgb(224, 225, 233);
+        padding-bottom: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    /* GTS navbar */
+
+    .gts-btn-primary {
+        width: 7rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #00473e;
+        color: white;
+    }
+
+    .gts-btn-primary:hover {
+        width: 7rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #00473e;
+        color: #00473e;
+    }
+
+    .gts-btn-secondary {
+        width: 16.5rem;
+        height: 3rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #475d5b;
+        color: #475d5b;
+        font-size: 10px;
+    }
+
+    .gts-btn-secondary:hover {
+        width: 16.5rem;
+        height: 3rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #475d5b;
+        color: white;
+        font-size: 10px;
+    }
+
+    .gts-container-co {
+        width: 12rem;
+        padding-bottom: 2rem;
+    }
+
+    .gts-navbar {
+        height: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    img.gts-brand-logo {
+        width: 110px;
+        height: 30px;
+    }
+
+    .gts-btngrup-navbar {
+        height: 4rem;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        width: 22.5rem;
+    }
+
+    .container-fluid {
+        height: auto;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    /* Search GTS */
+    .gts-search {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .gts-form-search {
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #475d5b;
+    }
+
+
+
+    /* Carousel GTS */
+    .gts-carousel {
+        border-radius: 1rem 1rem 0rem 0rem;
+        padding-top: 2rem;
+        background-color: #00473e;
+        text-align: center;
+        height: 15rem;
+
+    }
+
+    .gts-img-banner {
+        width: 40rem;
+        height: 15rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+
+    }
+
+    span.gts-btn-carousel-next {
+        background-image: url(../img/next.png);
+        height: 4rem;
+        width: 2.5rem;
+
+    }
+
+    span.gts-btn-carousel-prev {
+        background-image: url(../img/prev.png);
+        height: 4rem;
+        width: 2.5rem;
+    }
+
+
+
+    /* Konten GTS */
+    .gts-content {
+        background-color: white;
+        text-align: center;
+        margin-top: -13rem;
+        height: auto;
+        width: auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+        border-radius: 10px 10px 10px 10px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .gts-container-keranjang {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background-color: white;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #00473e;
+    }
+
+    .gts-img-cart {
+        margin-left: -11rem;
+        margin-bottom: 3rem;
+    }
+    .gts-img-carts {
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .gts-grup-cart {
+        text-align: left;
+        width: auto;
+    }
+
+    .gts-form-login1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #00473e;
+        height: 40px;
+        width: 11rem;
+    }
+
+    .gts-ttl-txt {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .gts-btnkonfirm{
+        width: 14rem;
+        margin-top: 1rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #00473e;
+        color: white;
+    }
+    .gts-btnkonfirm:hover{
+        width: 14rem;
+        margin-top: 1rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #00473e;
+        color: white;
+    }
+
+
+
+    /* Footer GTS */
+    .footer-clean {
+        background: #00473e;
+        padding: 12px 0;
+        color: white;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

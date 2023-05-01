@@ -1,0 +1,197 @@
+@media only screen and (max-width: 414px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .gts-container-content {
+
+        background-color: rgb(224, 225, 233);
+        padding-bottom: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    /* GTS navbar */
+    .gts-navbar {
+        height: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    img.gts-brand-logo {
+        width: 110px;
+        height: 30px;
+    }
+
+    .gts-btngrup-navbar {
+        height: 4rem;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        width: 22.5rem;
+    }
+
+    .container-fluid {
+        height: auto;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .gts-btn-primary {
+        width: 18.5rem;
+        height: 3rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #00473e;
+        color: white;
+        font-size: 10px;
+    }
+
+    .gts-btn-primary:hover {
+        width: 18.5rem;
+        height: 3rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #00473e;
+        color: #00473e;
+        font-size: 10px;
+    }
+
+    .gts-btn-secondary {
+        width: 18.5rem;
+        height: 3rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #475d5b;
+        color: #475d5b;
+        font-size: 10px;
+        margin-top: 1rem;
+    }
+
+    .gts-btn-secondary:hover {
+        width: 18.5rem;
+        height: 3rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #475d5b;
+        color: white;
+        font-size: 10px;
+        margin-top: 1rem;
+    }
+
+    .gts-btngrup-navbar {
+        background-color: #00473e;
+        padding-left: 5px;
+        padding-right: 10px;
+        border-radius: 3rem 3rem 3rem 3rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .gts-username {
+        padding-top: 12px;
+        color: white;
+    }
+
+    /* Search GTS */
+    .gts-search {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .gts-form-search {
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #475d5b;
+    }
+
+
+
+    /* Carousel GTS */
+    .gts-carousel {
+        border-radius: 1rem 1rem 0rem 0rem;
+        padding-top: 2rem;
+        background-color: #00473e;
+        text-align: center;
+        height: 15rem;
+
+    }
+
+    .gts-img-banner {
+        width: 40rem;
+        height: 15rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+
+    }
+
+    span.gts-btn-carousel-next {
+        background-image: url(../img/next.png);
+        height: 4rem;
+        width: 2.5rem;
+
+    }
+
+    span.gts-btn-carousel-prev {
+        background-image: url(../img/prev.png);
+        height: 4rem;
+        width: 2.5rem;
+    }
+
+
+
+    /* Konten GTS */
+    .gts-content {
+        background-color: white;
+        text-align: center;
+        margin-top: -13rem;
+        height: auto;
+        width: auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+        border-radius: 10px 10px 10px 10px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .gts-container-berhasil {
+        text-align: left;
+    }
+
+    .gts-berhasil-ttle {
+
+        font-size: 15px;
+    }
+
+    .gts-berhasil-txt {
+        font-weight: bolder;
+        font-size: 17px;
+    }
+
+    .gts-grup-berhasil {
+        margin-top: 3rem;
+    }
+
+    .gts-harga-txt {
+        font-size: 19px;
+        color: #fa5246;
+        font-weight: bolder;
+    }
+
+    .gts-btn-belanja {
+        text-align: center;
+    }
+
+    .gts-btn-txt {
+        font-size: 13px;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Footer GTS */
+    .footer-clean {
+        background: #00473e;
+        padding: 12px 0;
+        color: white;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

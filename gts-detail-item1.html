@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/GTS-Logo.ico" type="image/x-icon">
+    <title>GrowtopiaShop.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/GTS-Item.css">
+    <link rel="stylesheet" href="css/GTS-Item-MQ.css">
+
+    <script src="js/GTS-ChartNotif.js"></script>
+</head>
+<body>
+    <div class="row gts-navbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/GTS-Logo.png" alt="Logo" width="175" height="50"
+                        class="gts-brand-logo d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="gts-btngrup-navbar collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex" role="search">
+                    <img class="me-1" src="img/avatar.png" width="50rem" alt="">
+                    <h5 class="gts-username">Akbar</h5>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="me gts-container-content">
+        <div class="gts-carousel">
+
+        </div>
+        <div class="gts-content">
+            <div class="gts-search">
+                    <input class="gts-form-search form-control" type="search" placeholder="Search" aria-label="Search">
+            </div>
+
+            <div class="row justify-content-evenly">
+                <div class="gts-container-prdct col-6">
+                    <div class="gts-container-img">
+                        <img class="" width="200px" src="img/dl.png" alt="">
+                    </div>
+                    <div class="gts-container-txt">
+                        <h5 class="gts-konten-txt">Diamond Lock</h5>
+                        <div class="gts-disc-grup row">
+                            <div class="gts-diskon col-5">
+                                <h5 class="gts-diskon-txt">50%</h5>
+                            </div>
+                            <div class="col-5">
+                                <h5 class="gts-disc-price-txt"><s>Rp50.000</s></h5>
+                            </div>
+                        </div>
+                        <h5 class="gts-price-pdct">Rp25.000</h5>
+                        <div class="gts-kat-send">
+                            <h5 class="gts-send-pdct">Stock : 999</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="gts-container-pesanan col-5">
+                    <h4>Informasi Pesanan</h4>
+                    <div class="gts-input-pesanan">
+                        <label class="gts-input-txt form-label" for="form3Example3c">GrowID & World</label>
+                        <div class="d-flex flex-row align-items-center mb-4">
+                            <div class="form-outline flex-fill mb-0">
+                                <input type="text" id="email" class="gts-form-login1" required autocomplete="off" />
+                            </div>
+                        </div>
+                        <label class="gts-input-txt form-label" for="form3Example3c">Catatan Untuk Penjual</label>
+                        <div class="d-flex flex-row align-items-center mb-4">
+                            <div class="form-outline flex-fill mb-0">
+                                <input type="text" id="email" class="gts-form-login1" required autocomplete="off" />
+                            </div>
+                        </div>
+                        <label class="gts-input-txt form-label" for="form3Example3c">Jumlah Beli</label>
+                        <div class="d-flex flex-row align-items-center mb-4">
+                            <div class="form-outline flex-fill mb-0">
+                                <input type="number" min="2" id="email" value="2" class="gts-form-login1" required autocomplete="off" />
+                            </div>
+                        </div>
+                        <div class="gts-container-subttl row">
+                            <div class="col-5">
+                                <h5 class="gts-input-txt">Total Pembelian</h5>
+                            </div>
+                            <div class="col-5">
+                                <h5 class="gts-price-pdcts">Rp25.000</h5>
+                            </div>
+                        </div>
+                        <div class="gts-container-btnco row">
+                            <a href="gts-pembayaran.html" class="col-6">
+                                <button class="btn gts-btn-primary" type="button">Beli Langsung</button>
+                            </a>
+                            <div class="col-6">
+                                <button class="btn gts-btn-secondary" onclick="notifkeranjang()" type="button">+ Tambah</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gts-container-hisprdct row">
+                <div class="col-3">
+                    <img width="40px" src="img/minimal.png" alt="">
+                    <h5 class="gts-hisprdct-txt">Minimal Beli</h5>
+                    <h5 class="gts-hisprdct-txts">2</h5>
+                </div>
+                <div class="col-3">
+                    <img width="40px" src="img/belisukses.png" alt="">
+                    <h5 class="gts-hisprdct-txt">Transaksi Sukses</h5>
+                    <h5 class="gts-hisprdct-txts">1750</h5>
+                </div>
+                <div class="col-3">
+                    <img width="40px" src="img/waktu.png" alt="">
+                    <h5 class="gts-hisprdct-txt">Rata Rata Kirim</h5>
+                    <h5 class="gts-hisprdct-txts">10 menit</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 item social">
+                        <a href="#"><i class="icon ion-social-facebook"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter"></i></a>
+                        <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                        <a href="#"><i class="icon ion-social-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

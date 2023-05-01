@@ -1,0 +1,287 @@
+@media only screen and (max-width: 414px) {
+    .gts-container-content {
+        background-color: rgb(224, 225, 233);
+        padding-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+    /* GTS navbar */
+    .gts-navbar {
+        height: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    img.gts-brand-logo {
+        width: 110px;
+        height: 30px;
+    }
+
+    .gts-btngrup-navbar {
+        height: 4rem;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        width: 14rem;
+    }
+
+    .container-fluid {
+        height: auto;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .gts-btn-primary {
+        width: 10rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #00473e;
+        color: white;
+    }
+
+    .gts-btn-primary:hover {
+        width: 10rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #00473e;
+        color: #00473e;
+    }
+
+    .gts-btn-secondary {
+        width: 10rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #475d5b;
+        color: #475d5b;
+    }
+
+    .gts-btn-secondary:hover {
+        width: 10rem;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+        background: #475d5b;
+        color: white;
+    }
+    .gts-grup-cartnav{
+        margin-right: 0rem;
+    }
+    .gts-grup-iconcrt{
+        padding-left: 3rem;
+    }
+    
+
+    /* GTS carousel */
+    .gts-carousel {
+        width: auto;
+        background-color: #00473e;
+        height: 11rem;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    .gts-img-banner {
+        width: 19rem;
+        height: 7rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+    }
+
+    span.gts-btn-carousel-next {
+        margin-left: 1.5rem;
+        background-image: url(../img/next.png);
+        height: 2rem;
+        width: 1rem;
+    }
+
+    span.gts-btn-carousel-prev {
+        margin-right: 1.5rem;
+        background-image: url(../img/prev.png);
+        height: 2rem;
+        width: 1rem;
+    }
+
+
+
+    /* GTS kategori */
+    .gts-img-kategori {
+        width: 3.5rem;
+    }
+
+    .gts-kategori-item {
+        padding: 5px;
+        height: 5rem;
+        border: 2px solid #475d5b;
+        background-color: white;
+        width: 5rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .gts-kategori-item:hover {
+        padding: 5px;
+        height: 5rem;
+        border: 3px solid #475d5b;
+        background-color: white;
+        width: 5rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .gts-icon-txt {
+        font-size: 10px;
+        padding-top: 2px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .gts-kategori {
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+    /* Search GTS */
+    .gts-search {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .gts-form-search {
+        border-radius: 1rem 1rem 1rem 1rem;
+        border: 2px solid #475d5b;
+    }
+
+
+    /* GTS konten */
+
+    .gts-content {
+        background-color: white;
+        text-align: center;
+        margin-top: 2rem;
+        height: auto;
+        width: auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+        border-radius: 10px 10px 10px 10px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .gts-img-konten {
+        width: 4rem;
+    }
+
+    .gts-konten-item {
+        color: black;
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        margin-top: 20px;
+        padding: 13px;
+        width: 8rem;
+        text-align: left;
+        justify-content: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+        height: 13rem;
+        border: 2px solid #475d5b;
+    }
+
+    .gts-konten-item:hover {
+        height: 13rem;
+        border: 3px solid #475d5b;
+        background-color: white;
+        width: 8rem;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.6px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .gts-konten-item .gts-container-img {
+        background-color: #00473e;
+        margin: -10px;
+        border-radius: 10px 10px 0px 0px;
+        text-align: center;
+    }
+    
+
+    .gts-konten-txt {
+        font-weight: bolder;
+        padding-top: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 9px;
+    }
+
+    .gts-price-pdct {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        color: #fa5246;
+        font-weight: bolder;
+
+    }
+
+    .gts-disc-grup {
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 5px;
+
+    }
+
+    .gts-diskon-txt {
+        font-size: 9px;
+        color: white;
+    }
+
+    .gts-disc-price-txt {
+        font-size: 9px;
+        text-align: left;
+        color: #a8a8a8;
+        padding-top: 3px;
+    }
+
+    .gts-diskon {
+        width: auto;
+        height: 1rem;
+        background-color: rgb(235, 83, 83);
+        padding-top: 2.5px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .gts-send-pdct {
+        font-size: 9px;
+        color: #2c96a1;
+    }
+
+    .gts-kat-send {
+        padding-top: 2px;
+        background-color: rgb(212, 237, 218);
+        height: 1rem;
+        width: auto;
+        text-align: center;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .gts-sell {
+        margin-top: 1rem;
+    }
+
+    .gts-sell-pdct {
+        font-size: 10px;
+    }
+
+
+
+    .footer-clean {
+        background: #00473e;
+        padding: 12px 0;
+        color: white;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+}
