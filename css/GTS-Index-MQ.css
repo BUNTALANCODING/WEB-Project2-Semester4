@@ -265,5 +265,7 @@
         margin-right: 1rem;
     }
 
-
+    .footer-clean .item.social {
+        text-align: center;
+    }
 }

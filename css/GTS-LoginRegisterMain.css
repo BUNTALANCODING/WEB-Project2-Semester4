@@ -107,7 +107,7 @@ input.gts-form-login:focus {
 }
 
 .footer-clean .item.social {
-    text-align: right;
+    text-align: center;
 }
 
 @media (max-width: 767px) {

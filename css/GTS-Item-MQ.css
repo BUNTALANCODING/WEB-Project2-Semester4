@@ -264,4 +264,7 @@ span.gts-btn-carousel-prev {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.footer-clean .item.social {
+    text-align: center;
+}
 }

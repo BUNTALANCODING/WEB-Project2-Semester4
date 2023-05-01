@@ -218,9 +218,8 @@ font-weight: bolder;
 }
 
 .footer-clean .item.social {
-    text-align: right;
+    text-align: center;
 }
-
 @media (max-width: 767px) {
     .footer-clean .item {
         text-align: center;
